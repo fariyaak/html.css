@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    width: 100%;
+    color: #0e72cc;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo, .buttons {
+    flex-basis: 20%;
+}
+
+.Menu {
+    flex-basis: 60%;
+}
+
+.Menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 16px;
+    color: #0e72cc;
+}
+
+.Buttons button {
+    background: #0e72cc;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    border: 1px, solid #0e72cc;
+}
